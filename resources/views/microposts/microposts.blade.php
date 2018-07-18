@@ -1,4 +1,4 @@
-<ul class="media-list">
+<ul class="media-list" style="margin-top:10px">
     @foreach ($microposts as $micropost)
         <?php $user = $micropost->user; ?>
         <li class="media">
